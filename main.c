@@ -115,26 +115,3 @@
 //     }
 //     return 0;
 // }
-//6
-// #include <stdio.h>
-// int calcularPell(int n) {
-//     if (n == 0) {
-//         return 0;
-//     } else if (n == 1) {
-//         return 1;
-//     } else {
-//         return 2 * calcularPell(n - 1) + calcularPell(n - 2);
-//     }
-// }
-// int main() {
-//     int n;
-//     printf("Digite o valor de n para calcular o número de Pell: ");
-//     scanf("%d", &n);
-//     if (n < 0) {
-//       printf("O valor de n deve ser não negativo.\n");
-//     }else{
-//       int resultado = calcularPell(n);
-//       printf("O número de Pell para n = %d é: %d\n", n, resultado);
-//     }
-//     return 0;
-// }
